@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="./assets/javascript/hamburger.js"></script>
 <link href="./assets/stylesheets/basic.css" rel="stylesheet"/>
 <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 <title>About</title>
 </head>
+
 <body>
+  <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 <div class="a">
   <h1 style="font-size:66px; font-weight:lighter;">ABOUT</h1>
 </div>
-  <p>
-  <img src="./assets/images/about_band_bio.jpg" border-radius="10px;" style="width:558px; height:372.5px;">
-  </p>
+<p>
+  <img class="rcorners" align="right" src="./assets/images/about_band_bio.jpg" style="width:558px;height:372.5px;">
+  <p style="font-weight:bold">
+  The years since the release of Singles
+  have been transformative for
+  Future Islands, catapulting
+  the Baltimore-based band
+  from cult favorites to
+  synth pop icons.</p>
+<br />
+  As addictive
+  songs like breakout
+  ‘Seasons (Waiting on You)’
+  turned the world on to sublime
+  pleasures a loyal fan base already
+  knew, this hard-touring band sloughed
+  forward, playing their 1000th show in July 2015 and celebrating their 10th anniversary
+  in February 2016. Now Future Islands returns at the top of their game with new album
+  The Far Field, delivering twelve chest-pounding love songs and odes to thread as only they can.
+</p>
 </body>
 </html>
