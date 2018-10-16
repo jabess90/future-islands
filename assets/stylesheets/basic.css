@@ -1,0 +1,19 @@
+body {
+    font-family: 'Quicksand';font-size: 22px; background-color: oldlace; color: #707070;
+}
+
+div.a {
+    text-align: center;
+}
+
+div.b {
+    text-align: left;
+}
+
+div.c {
+    text-align: right;
+}
+
+div.d {
+    text-align: justify;
+}
