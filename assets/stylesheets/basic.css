@@ -22,6 +22,66 @@ div.d {
     border-radius: 203px;
 }
 
+img.avatar {
+    border-radius: 50%;
+    padding: 20px 20px 20px 20px;
+}
+
+.quote-column {
+  float: left;
+  width: 50%;
+  padding: 0px 30px 30px 100px;
+  line-height: 2;
+  font-size: 24px;
+}
+
+.labels-column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bio-column {
+    float: left;
+    padding-left: 100px;
+    width: 50%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("./assets/images/home_background.jpg");
+
+    /* Full height */
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* The Overlay (background) */
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */
