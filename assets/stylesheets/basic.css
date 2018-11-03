@@ -36,7 +36,7 @@ img.avatar {
 }
 
 .labels-column {
-  float: left;
+  float: right;
   width: 50%;
   padding: 10px;
   line-height: 1.5;
@@ -65,22 +65,27 @@ img.avatar {
     clear: both;
 }
 
+/* Index Start */
+
+.home-background {
+  position: relative;
+  width: 1200px;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  position: absolute;
+  width: 600px;
+  top: 60px;
+  left: 450px;
+}
+
 body, html {
     height: 100%;
 }
 
-.bg {
-    /* The image used */
-    background-image: url("./assets/images/home_background.jpg");
-
-    /* Full height */
-    width: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* Index End */
 
 /* The Overlay (background) */
 .overlay {

@@ -1,10 +1,35 @@
-<!DOCTYPE html>
+<!Doctype>
 <html>
 <head>
-  <title>Future Islands</title>
   <link href="./assets/stylesheets/basic.css" rel="stylesheet"/>
+  <link href="./assets/stylesheets/hamburger.css" rel="stylesheet"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
 </head>
+
 <body>
-  <img class="bg" src="./assets/images/home_background.jpg" />
+  <!-- hamburger -->
+
+  <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="./index.html">HOME</a>
+    <a href="./about.html">ABOUT</a>
+    <a href="#">DISCOGRAPHY</a>
+    <a href="#">MEDIA</a>
+    <a href="#">MERCH</a>
+    <a href="#">TOUR</a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script src="./assets/javascript/hamburger.js"></script>
+
+  <!-- background -->
+	<div style="position: relative; left: 0; top: 0;">
+		<img src="./assets/images/home_background.jpg" class="home-background"/>
+		<img src="./assets/images/future-islands-logo.png" class="logo"/>
+	</div>
 </body>
 </html>
