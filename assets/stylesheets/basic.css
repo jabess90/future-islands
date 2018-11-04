@@ -30,7 +30,7 @@ img.avatar {
 .quote-column {
   float: left;
   width: 50%;
-  padding: 0px 30px 30px 100px;
+  padding: 0px 30px 30px 25px;
   line-height: 2;
   font-size: 24px;
 }
@@ -47,16 +47,22 @@ img.avatar {
     box-sizing: border-box;
 }
 
-.bio-column {
-    float: left;
-    padding-left: 100px;
-    width: 50%;
-}
-
 .column {
     float: left;
     width: 50%;
     padding: 10px;
+}
+
+.gallery-column {
+    float: left;
+    height: auto;
+    width: 25%;
+    padding: 3px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
 }
 
 .row:after {
@@ -69,16 +75,16 @@ img.avatar {
 
 .home-background {
   position: relative;
-  width: 1200px;
+  width: 100%;
   top: 0;
   left: 0;
 }
 
-.logo {
+.social {
   position: absolute;
-  width: 600px;
-  top: 60px;
-  left: 450px;
+  width: 200px;
+  top: 700px;
+  left: 30px;
 }
 
 body, html {

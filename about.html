@@ -2,37 +2,35 @@
 <html>
 <head>
 <link href="./assets/stylesheets/basic.css" rel="stylesheet"/>
+<link href="./assets/stylesheets/hamburger.css" rel="stylesheet"/>
 <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 <title>About</title>
 </head>
 
 <body>
 
-  <!-- The overlay -->
-<div id="myNav" class="overlay">
-
-  <!-- Button to close the overlay navigation -->
+  <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-  <!-- Overlay content -->
   <div class="overlay-content">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <a href="./index.html">HOME</a>
+    <a href="./about.html">ABOUT</a>
+    <a href="./discography.html">DISCOGRAPHY</a>
+    <a href="./media.html">MEDIA</a>
+    <a href="./merch.html">MERCH</a>
+    <a href="./tour.html">TOUR</a>
+  </div>
   </div>
 
-</div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
-<!-- Use any element to open/show the overlay navigation menu -->
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <script src="./assets/javascript/hamburger.js"></script>
 
 <div class="a">
   <h1 style="font-size:66px; font-weight:lighter;">ABOUT</h1>
 </div>
 
 <div class="row">
-<div class="bio-column">
+<div class="column">
   <b>
   The years since the release of Singles
   have been transformative for
