@@ -27,10 +27,18 @@ img.avatar {
     padding: 20px 20px 20px 20px;
 }
 
+/* about */
+
+.bio-column {
+    float: left;
+    padding-left: 100px;
+    width: 50%;
+  }
+
 .quote-column {
   float: left;
   width: 50%;
-  padding: 0px 30px 30px 25px;
+  padding: 0px 30px 30px 210px;
   line-height: 2;
   font-size: 24px;
 }
@@ -47,6 +55,8 @@ img.avatar {
     box-sizing: border-box;
 }
 
+/* media */
+
 .column {
     float: left;
     width: 50%;
@@ -57,7 +67,8 @@ img.avatar {
     float: left;
     height: auto;
     width: 25%;
-    padding: 3px;
+    padding: 10px;
+    padding-bottom: 5px;
 }
 
 .responsive {
@@ -71,7 +82,7 @@ img.avatar {
     clear: both;
 }
 
-/* Index Start */
+/* index */
 
 .home-background {
   position: relative;
@@ -91,7 +102,7 @@ body, html {
     height: 100%;
 }
 
-/* Index End */
+/* hamburger */
 
 /* The Overlay (background) */
 .overlay {
